@@ -1,0 +1,47 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+    color:black;
+    
+}
+
+header{
+
+    background-color:rgb(226, 17, 17);
+    display: flex;
+    flex-direction: column;
+    background-position: center;
+    text-align: center;
+    align-items: center;
+}
+
+header > img{
+
+    align-items: center;
+    text-align: center;
+   
+}
+
+h1, h2, h3, h4{
+
+    font-family:Arial, Helvetica, sans-serif;
+    color: black;
+    text-align: center;
+
+}
+
+.botao{
+    color:black;
+    text-decoration: none;
+    padding:10px 40px;
+    background-color: blue;
+    font-size: .9em;
+    border-radius: 3px;
+
+}
+
+div{
+
+    display: flex;
+    flex-direction: column;
+    
+}
