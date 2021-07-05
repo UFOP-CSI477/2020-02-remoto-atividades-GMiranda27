@@ -1,0 +1,66 @@
+header h1{
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #d42323d8;
+}
+
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #1c1c1c;
+    background-color: beige; 
+    text-align: center
+}
+
+form{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color: black;
+}
+
+table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    min-width: 400px;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+    table-layout: fixed;
+    text-align: center;
+    width: 100%;
+    height: 40px;
+    text-align: center;
+}
+
+table thead tr{
+    background-color: #d42323d8;
+    color: #000000;
+    font-weight: bold;
+    border-bottom: 1px solid #dddddd;
+    text-align: center;
+}
+
+button{
+        background: #F63D3D;
+        background-image: -webkit-linear-gradient(top, #F63D3D, #D01E1E);
+        background-image: -moz-linear-gradient(top, #F63D3D, #D01E1E);
+        background-image: -ms-linear-gradient(top, #F63D3D, #D01E1E);
+        background-image: -o-linear-gradient(top, #F63D3D, #D01E1E);
+        background-image: -webkit-gradient(to bottom, #F63D3D, #D01E1E);
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        border-radius: 5px;
+        color: #000000;
+        font-family: Georgia;
+        font-size: 17px;
+        font-weight: 100;
+        padding: 10px;
+        -webkit-box-shadow: 1px 1px 20px 0 #000000;
+        -moz-box-shadow: 1px 1px 20px 0 #000000;
+        box-shadow: 1px 1px 20px 0 #000000;
+        border: solid #DD380D 1px;
+        text-decoration: none;
+        display: inline-block;
+        cursor: pointer;
+        text-align: center;
+     
+}

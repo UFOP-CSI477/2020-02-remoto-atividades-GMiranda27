@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="01-corrida.css">
+    <script src="01-corrida.js"></script>
+
+    <title>Carrinhos de Rolimã</title>
+    
+</head>
+<body>  
+        <header id="topo">
+            <h1>Corrida de carrinhos de rolimã</h1>
+        </header>
+
+        <section id="formulario">
+            <form>
+                    <div>
+                        <label  for="nomeJogador">Nome:</label>
+                        <input type="text" name="nomeJogador" id="nomeJogador" class="form-control" placeholder="Digite o nomeJogador do competidor" >
+                    </div>
+                    <div>
+                        <label for="tempoJogador">Tempo:</label>
+                        <input type="number" name="tempoJogador" id="tempoJogador" class="form-control" placeholder="Tempo do jogador em segundos">
+                    </div>
+                    <div>
+                        <br>
+                        <button type="button" onclick="inserir()" class="inserirCompetidor" id="inserirCompetidor">Inserir</button>
+                    </div>
+            </form>
+        </section>
+       
+        <section id="tabela1">
+            <table id="tabelaInicial" class="table table-hover table-bordered table-striped">
+                <thead class="table-secondary">  
+                    <tr class="align-items-center">
+                        <th>Largada</th>
+                        <th>Competidor(a)</th>
+                        <th>Tempo (s)</th>
+                    </tr>
+                </thead>
+            </table>
+        </section>
+
+        <section id="botao">
+            <button type="button" onclick="resultado()" id="resultado" disabled>Resultado</button>
+            <button type="button" onclick="recarrega()" id="novaApuracao" disabled >Refazer</button>
+        </section>
+
+        <section id="tabela2">
+            <table id="tabelaFinal" class="table table-bordered table-striped border-dark bg-white rounded">
+                <thead class="table-secondary">
+                    <tr class="align-items-center">
+                        <th>Posição</th>
+                        <th>Largada</th>
+                        <th>Competidor(a)</th>
+                        <th>Tempo (s)</th>
+                        <th>Resultado</th>
+                    </tr>
+                </thead>
+            </table>
+        </section>
+
+</body>
+</html>
