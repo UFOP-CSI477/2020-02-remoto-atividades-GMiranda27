@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+
+    <title>Pix</title>
+
+    <script src="03-pix.js"></script>
+    
+</head>
+<body>
+    <div class="p-3 mb-2 text-dark">
+        <div class="form-group">
+            <form>
+                <div class="row" >
+                    <div class="col-6">
+                        <label class="tipoPix">Tipo de chave PIX: </label>
+                        <select name="tipoPix" id="tipoPix" class="form-control" >
+                            <option selected>Selecione</option>
+                            <option>Email</option>
+                            <option>CPF</option>
+                            <option>CNPJ</option>
+                            <option>Número celular</option>
+                            <option>Chave aleatória</option>
+                        </select>
+                    </div>
+
+                    <div class="col-6">
+                        <label class="chavePix">Chave Pix: </label>
+                        <input type="text" name="chavePix" id="chavePix" class="form-control" placeholder="Chave" >
+                    </div>
+                
+                    
+                </div>
+                
+                <div class="row" >
+                    <div class="form-group col-6">
+                        <label>Operação:</label>
+                        <div class="form-check">
+                            
+                            <input class="radio-inline control-label" type="radio" name="operacao" id="operacao" value="Envio" checked>
+                            <label class="form-check-label" for="operacao">
+                            Envio
+                            </label>
+                        
+                            <input class="radio-inline control-label" type="radio" name="operacao" id="operacao" value="Recebimento">
+                            <label class="form-check-label" for="operacao">
+                            Recebimento
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <div class="form-group col-6" onclick="API_Banco()">
+                        <label class="banco">Banco: </label>
+                        <select name="banco" id="banco" class="form-control">
+                            <option value="">Selecione</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-6">
+                        <label class="data">Data da operação: </label>
+                        <input type="date" name="data" id="data" class="form-control">
+                    </div>
+                    
+                    <div class="col-6">
+                        <label class="valor">Valor: </label>
+                        <input type="number" name="valor" id="valor" step="0.01" min="0.10" class="form-control" placeholder="Valor em reais">
+                    </div>
+                </div>
+            </form>
+        </div>
+
+        <div class="form-group d-flex justify-content-center py-5">
+            <button type="button" name="finalizar" id="finalizar" class="btn btn-success text-dark font-weight-bold border mr-2" onclick="tabela()">Concluir</button>
+        </div>
+
+        <table class="table" id="resultado" >
+            <thead class=" table-striped table-dark py-2">
+                <tr class="align-items-center">
+                    <th>Data</th>
+                    <th>Banco</th>
+                    <th>Operação</th>
+                    <th>Pix</th>
+                    <th>Valor (R$)</th>
+                </tr>
+             </thead>
+        </table>
+    </div>
+    
+</body>
+</html>
