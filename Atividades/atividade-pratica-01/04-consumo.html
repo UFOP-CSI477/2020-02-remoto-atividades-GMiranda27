@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="04-consumo.js"></script>
+    <title>Consumo de combustível</title>
+    
+</head>
+<body>
+        <header id="topo">
+            <h1 class="text-center">Consumo de combustível</h1>
+        </header>
+        
+        <section id="formulario">
+            <form>
+                    <div>
+                        <label  for="combustivel">Quantidade de combustível (litros): </label>
+                        <input type="number" name="combustivel" id="combustivel" class="form-control" placeholder="Combustivel">
+                    </div>
+                    <div>
+                        <label for="km">Quantidade de quilômetros rodados (km): </label>
+                        <input type="number" name="km" id="km" class="form-control" placeholder="Quilômetros">
+                    </div>
+                    <div>
+                        <button type="button" class="btn btn-success text-white font-weight-bold border-info border"
+                            onclick="inserir()" id="inserirConsumo">Inserir</button>
+                    </div>
+            </form>
+        </section>
+       
+        <section id="tabela1">
+            <table id="tabelaInicial" class="table table-hover table-bordered table-striped">
+                <thead class="table-secondary">  
+                    <tr class="align-items-center">
+                        <th>Quantidade de combustível</th>
+                        <th>Quantidade de quilômetros rodados</th>
+                        <th>Desempenho em quilômetros por litros (km/l)</th>
+                    </tr>
+                </thead>
+            </table>
+        </section>
+
+        <section id="botao">
+            <button type="button" class=" btn btn-primary text-white font-weight-bold border-info border mr-2" onclick="concluir()" id="concluir">Concluir</button>
+        </section>
+
+        <section id="tabela2">
+            <table id="tabelaFinal" class="table table-bordered table-striped border-dark bg-white rounded">
+                <thead class="table-secondary">
+                    <tr class="align-items-center">
+                        <th>Quantidade total de combustível utilizada</th>
+                        <th>Quantidade total de quilômetros rodados</th>
+                        <th>Média de consumo de combustível</th>
+                        <th>Média de quilômetros rodados</th>
+                        <th>Média de desempenho em quilômetros por litros (km/l)</th>
+                    </tr>
+                </thead>
+            </table>
+        </section>
+    
+</body>
+</html>
