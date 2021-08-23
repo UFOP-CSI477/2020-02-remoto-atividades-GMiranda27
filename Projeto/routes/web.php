@@ -13,6 +13,7 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/calendario', 'App\Http\Controllers\Controller@calendario');
+Route::resource('/controle', App\Http\Controllers\ControleController::class);
+Route::get('/cronometro', 'App\Http\Controllers\Controller@cronometro');
+Route::resource('/cards', App\Http\Controllers\CardsController::class);

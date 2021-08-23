@@ -1,5 +1,5 @@
 # **CSI606-2020-02 - Remoto - Proposta de Trabalho Final**
-## *Aluna(o): Princesa Leia (Luke Skywalker)*
+## *Aluna(o): Gabriel Miranda Silva*
 
 --------------
 
@@ -7,28 +7,28 @@
 
 ### Resumo
 
-  (Apresentar um breve resumo sobre o seu trabalho, indicando o contexto e as principais funcionalidades.)
+    O trabalho tem como objetivo a realização de um sistema para auxilio nos estudos para concurso, contendo páginas de calendário, cronômetro, controles (planner) e flashcards.
 
 <!-- Apresentar o tema. -->
 ### 1. Tema
 
-  O trabalho final tem como tema o desenvolvimento de ...
+   Gerenciador de estudos
 
 <!-- Descrever e limitar o escopo da aplicação. -->
 ### 2. Escopo
 
-  Este projeto terá as seguintes funcionalidades...
+    O sistema consiste em páginas para o gerenciamento do estudo. Uma página de calendário que apresenta as atividades gerais do mês. Uma página para cronômetro, uma página de controle, que a pessoa pode inserir as atividades que devem ser realizadas, data, descrição. E uma página para flashcards, cards que possuem um "título", um nome, e ao clicar para visualizar, mostra o conteúdo. Serve para memorização.
 
 <!-- Apresentar restrições de funcionalidades e de escopo. -->
 ### 3. Restrições
 
-  Neste trabalho não serão considerados ...
+
 
 <!-- Construir alguns protótipos para a aplicação, disponibilizá-los no Github e descrever o que foi considerado. //-->
 ### 4. Protótipo
 
-  Protótipos para as páginas (descrever quais páginas) foram elaborados, e podem ser encontrados em...
-
+    
+    
 ### 5. Referências
 
-  Referências podem ser incluídas, caso necessário. Utilize o padrão ABNT.
+    Referências podem ser incluídas, caso necessário. Utilize o padrão ABNT.

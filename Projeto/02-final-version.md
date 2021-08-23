@@ -1,5 +1,5 @@
 # **CSI606-2020-02 - Remoto - Trabalho Final - Resultados**
-## *Aluna(o): Princesa Leia (Luke Skywalker)*
+## *Aluna(o): Gabriel Miranda Silva*
 
 --------------
 
@@ -7,23 +7,30 @@
 
 ### Resumo
 
-  (Apresentar um breve resumo sobre o seu trabalho, indicando o contexto e as principais funcionalidades.)
+  O trabalho tem como objetivo a realização de um sistema para auxilio nos estudos para concurso, contendo páginas de calendário, cronômetro, controles (planner) e flashcards.
 
 ### 1. Funcionalidades implementadas
-<!-- Descrever as funcionalidades que eram previstas e foram implementas. -->
+
+  Calendário para visão geral.
+  Controle para controlar as atividades e datas.
+  Cronometro.
+  Flashcards para memorização de matérias.
   
 ### 2. Funcionalidades previstas e não implementadas
-<!-- Descrever as funcionalidades que eram previstas e não foram implementas, apresentando uma breve justificativa do porquê elas não foram incluídas -->
+
+  Controle de foco pelo cronômetro.
 
 ### 3. Outras funcionalidades implementadas
-<!-- Descrever as funcionalidades implementas além daquelas que foram previstas, caso se aplique.  -->
+
+
 
 ### 4. Principais desafios e dificuldades
-<!-- Descrever os principais desafios encontrados no desenvolvimento do trabalho, quais foram as dificuldades e como elas foram superadas e resolvidas. -->
+
+  Acesso ao banco de dados devido a erros que tiveram ao longo do projeto.
 
 ### 5. Instruções para instalação e execução
-<!-- Descrever o que deve ser feito para instalar (ou baixar) a aplicação, o que precisa ser configurando (parâmetros, banco de dados e afins) e como executá-la. -->
+
+  Utilizei o banco mysql, então a principio é necessário rodar no promp de comando "php artisan migrate" logo após criar uma tabela no localhost/phpmyadmin com nome "estudos". Acessar o sistema "php artisan serve".
 
 ### 6. Referências
 <!-- Referências podem ser incluídas, caso necessário. Utilize o padrão ABNT. -->
-
